@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Overseer';
+  src: url('../font/Overseer.otf') format('truetype')
+}
+
+*{
+    margin: 0;
+}
+
+.navbar {
+    background-color: #0086EC;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-family: Overseer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar > img {
+    width: 100px;
+    height: 100px;
+  }
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+    font-size: 60px;
+  }
+  
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 50px;
+  }
+  
+  .navbar-link:hover {
+    color: #003964;
+  }
+  
+
+  
+.container{
+    display:flex;
+
+}
+
+.ppal{
+    width: 70%;
+    height: 800px;
+    padding: 10px;
+    background-image: url(../img/fallout-sepia.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.titulo{
+  font-size: 4rem;
+  color: #0073CA;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em #0089F5, 0 0 0.2em rgb(255, 255, 255);
+  
+}
+
+h2{
+  font-size: 3rem;
+  color:#003964;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em #0089F5, 0 0 0.2em rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.juegos{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.aside{
+    width: 30%;
+    height: 800px;
+    padding:10px;
+    background-color: #005FA8;
+    color: #fff;
+}
+
+.aside > span{
+  margin-bottom: 30px;
+}
+
+.aside > p{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.aside-img{
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+.serie{
+  font-size: 1.5rem;
+  margin: 30px;
+}
+
+.juegos2{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+
+
+
+.footer {
+  background-color: #003964;
+  color: #fff;
+  
+  padding: 20px;
+}
+
+.container-footer {
+  width: 100%;
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+p{
+  margin-right: 3rem;
+}
+
+.lista-footer {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #005FA8;
+}
+
+h4{
+  font-size: 1rem;
+  text-align: center;
+}
